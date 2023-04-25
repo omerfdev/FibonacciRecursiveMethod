@@ -5,5 +5,4 @@
     
 }
 
-Console.WriteLine(FactorialMethod(5));
-Console.ReadLine();
+Console.WriteLine(FactorialMethod(Convert.ToInt32(Console.ReadLine())));
