@@ -16,7 +16,10 @@ namespace FibonacciRecursive
         static void Main(string[] args)
         {
             FactorialMethodDelegate factorialDelegate = FactorialMethods;
+            Console.WriteLine("Please Enter Number...");            
             Console.WriteLine(factorialDelegate(Convert.ToInt32(Console.ReadLine())));
+            Console.ReadLine();
+            Environment.Exit(0);
         }
     }
 }
